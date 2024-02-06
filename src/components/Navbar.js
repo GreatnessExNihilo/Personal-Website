@@ -1,12 +1,13 @@
 import React from 'react'
-import AndroidBotLogo from '../assets/androidbotlogo.png'
+import JumpingBart from '../assets/jumpingbart.png'
 import { Link } from 'react-router-dom'
+import '../styles/Navbar.css'
 
 function Navbar() {
   return (
     <div classname="navbar">
         <div classname="leftSideOfNavBar"></div>
-            <img src={AndroidBotLogo} />
+            <img src={JumpingBart} />
         <div classname="rightSideOfNavBar">
             <Link to="/"> Home </Link>
             <Link to="/resume"> Resume </Link>
